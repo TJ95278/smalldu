@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+img {
+    border: none;
+
+}
+
+.header {
+    height: 80px;
+
+    border-bottom: 1px solid gray;
+    padding-top: 50px;
+
+}
+
+.header-lef {
+    float: left;
+    width: 350px;
+
+    line-height: 35px;
+    font-size: 25px;
+
+}
+
+.safe {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-lef img {
+
+    height: 30px;
+    vertical-align: middle;
+}
+
+.header-rig {
+    float: right;
+}
+
+.header-rig button {
+    width: 80px;
+    height: 30px;
+    border: gray 1px solid;
+    background-color: white;
+    border-radius: 8px;
+  
+}
+.header-rig button:focus{
+    border: none;
+}
+
+
+.container {
+    height: 800px;
+    background: url(../img/login_bg.b51b60c648f4dec656802cb94e13afd2.png) no-repeat;
+    background-size: 510px 352px;
+    background-position: 360px 185px;
+
+}
+
+.box-login {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #DEDEDE;
+    position: relative;
+    left: 1200px;
+    top: 150px;
+}
+
+.box-login .loginTop {
+    background: url('../img/loginlogo.gif') no-repeat 15px 15px;
+    height: 80px;
+    padding-left: 130px;
+    line-height: 70px;
+}
+
+input[name=userName],
+input[name=pwd] {
+    width: 300px;
+    height: 30px;
+    margin: 10px 20px;
+    outline: none;
+    background-color: #E8F0FE;
+    border: 1px solid #DEDEDE;
+}
+
+
+button[name="login"] {
+    width: 300px;
+    height: 40px;
+    margin: 10px 20px;
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    outline: none;
+    
+}
